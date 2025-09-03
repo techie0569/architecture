@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leviora Edu Technical Roadmap & Architecture</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #F8F7F4;
+            color: #3D3B30;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <main class="container mx-auto px-4 py-12 md:py-24">
+        <header class="text-center max-w-4xl mx-auto mb-12 md:mb-16">
+            <h1 class="text-3xl md:text-5xl font-extrabold text-amber-700">Leviora Edu: Technical Roadmap & Architecture</h1>
+            <p class="mt-4 text-lg md:text-xl text-gray-600">A detailed overview of the platform's core features, technology stack, and development plan.</p>
+        </header>
+
+        <!-- Project Overview Section -->
+        <section class="mb-16 md:mb-24">
+            <h2 class="text-2xl md:text-4xl font-bold text-gray-800 text-center mb-8">Project Overview</h2>
+            <div class="bg-white p-6 md:p-8 rounded-xl shadow-lg border border-gray-200">
+                <ul class="space-y-4 text-gray-600">
+                    <li>
+                        <span class="font-semibold text-lg text-amber-700">Objective:</span> Build India’s first skills-first ecosystem connecting learning, mentorship, projects, jobs, and global careers.
+                    </li>
+                    <li>
+                        <span class="font-semibold text-lg text-amber-700">Target Users:</span> Students, Professionals, and Companies.
+                    </li>
+                    <li>
+                        <span class="font-semibold text-lg text-amber-700">Main Features:</span> Live Classes + Community + AI-driven Career Guidance.
+                    </li>
+                    <li>
+                        <span class="font-semibold text-lg text-amber-700">Goal:</span> Bridge the gap between education and employability.
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Development Roadmap Section -->
+        <section class="mb-16 md:mb-24">
+            <h2 class="text-2xl md:text-4xl font-bold text-gray-800 text-center mb-8">Development Roadmap</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                <!-- Phase 1 Card -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border border-amber-500/20">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Phase 1 (3–4 months): MVP</h3>
+                    <ul class="list-disc list-inside text-gray-600 space-y-1">
+                        <li>User Authentication & Profiles</li>
+                        <li>Skill Dashboard (Basic)</li>
+                        <li>Live Study Rooms (Video, Chat, Whiteboard)</li>
+                        <li>Community Chat</li>
+                        <li>Basic Skill Courses (Live + Recorded)</li>
+                    </ul>
+                </div>
+                <!-- Phase 2 Card -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border border-amber-500/20">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Phase 2 (6–8 months): Growth</h3>
+                    <ul class="list-disc list-inside text-gray-600 space-y-1">
+                        <li>AI Career Counselor</li>
+                        <li>Job Board + Portfolio Builder</li>
+                        <li>Mentorship System (1:1 & group)</li>
+                        <li>AI Learning Paths</li>
+                        <li>Advanced AI Recommendations</li>
+                    </ul>
+                </div>
+                <!-- Phase 3 Card -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border border-amber-500/20">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Phase 3 (1 Year+): Scale & Expansion</h3>
+                    <ul class="list-disc list-inside text-gray-600 space-y-1">
+                        <li>Global Networking & Hiring Platform</li>
+                        <li>Corporate Training Modules</li>
+                        <li>Advanced analytics dashboards</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Architecture Section -->
+        <section class="mb-16 md:mb-24">
+            <h2 class="text-2xl md:text-4xl font-bold text-gray-800 text-center mb-8">Technical Architecture</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Frontend Card -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-200">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Frontend</h3>
+                    <p class="text-gray-600">Flutter (mobile), React.js/Next.js (web)</p>
+                </div>
+                <!-- Backend Card -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-200">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Backend</h3>
+                    <p class="text-gray-600">Node.js + Express/NestJS, PostgreSQL/MySQL, Firebase/Supabase, Redis</p>
+                </div>
+                <!-- Live Classes Card -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-200">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Live Classes</h3>
+                    <p class="text-gray-600">WebRTC, Jitsi/Twilio/Agora, Socket.IO/Firebase chat</p>
+                </div>
+                <!-- AI Features Card -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-200">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">AI Features</h3>
+                    <p class="text-gray-600">Python + PyTorch/TensorFlow/OpenAI APIs for career guidance</p>
+                </div>
+                <!-- Cloud & Hosting Card -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-200">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Cloud & Hosting</h3>
+                    <p class="text-gray-600">AWS/GCP, S3/Cloud Storage, CDN</p>
+                </div>
+                <!-- Security Card -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-200">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Security</h3>
+                    <p class="text-gray-600">JWT authentication, Role-based access, Encryption</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Other Details Section -->
+        <section>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- API & Data Card -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-200">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">API & Data Requirements</h3>
+                    <ul class="list-disc list-inside text-gray-600 space-y-1">
+                        <li><span class="font-medium text-gray-800">APIs:</span> User, Courses, Live Classes, Mentorship, Portfolio, Job Board</li>
+                        <li><span class="font-medium text-gray-800">Database Tables:</span> Users, Roles, Courses, Projects, Mentorship Sessions, etc.</li>
+                    </ul>
+                </div>
+                <!-- Tech Risks Card -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-200">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Tech Risks & Considerations</h3>
+                    <ul class="list-disc list-inside text-gray-600 space-y-1">
+                        <li><span class="font-medium text-gray-800">Scalability:</span> For live classes and AI features.</li>
+                        <li><span class="font-medium text-gray-800">Latency:</span> Target ≤200ms for real-time interactions.</li>
+                        <li><span class="font-medium text-gray-800">Data Privacy:</span> Adherence to GDPR and Indian laws.</li>
+                        <li><span class="font-medium text-gray-800">AI Accuracy:</span> Implementing feedback loops for career recommendations.</li>
+                    </ul>
+                </div>
+                <!-- Tools & Collaboration Card -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-200">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Tools & Collaboration</h3>
+                    <ul class="list-disc list-inside text-gray-600 space-y-1">
+                        <li><span class="font-medium text-gray-800">Project Management:</span> Jira / ClickUp</li>
+                        <li><span class="font-medium text-gray-800">Version Control:</span> GitHub / GitLab</li>
+                        <li><span class="font-medium text-gray-800">CI/CD:</span> GitHub Actions / Jenkins</li>
+                        <li><span class="font-medium text-gray-800">Design & Prototypes:</span> Figma / Canva</li>
+                        <li><span class="font-medium text-gray-800">Analytics:</span> Google Analytics, Mixpanel, Firebase Analytics</li>
+                    </ul>
+                </div>
+                <!-- Deliverables Card -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-200">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Deliverables for Meeting</h3>
+                    <ul class="list-disc list-inside text-gray-600 space-y-1">
+                        <li>Technical Architecture Diagram</li>
+                        <li>MVP Feature List + Tech Stack</li>
+                        <li>Roadmap (MVP → Full Product)</li>
+                        <li>User Journey Charts</li>
+                        <li>API & Database Overview</li>
+                        <li>Risks & Mitigation Plan</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-white py-6 mt-16">
+        <div class="container mx-auto px-4 text-center text-gray-500 text-sm">
+            &copy; 2025 Leviora Edu. All Rights Reserved.
+        </div>
+    </footer>
+</body>
+</html>
